@@ -1,0 +1,104 @@
+body{
+  background-color:teal
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+h1{
+  font-family:"Courier New", Courier, monospace;
+}
+h2{
+  font-size: 25px
+}
+#main{
+  border-radius: 25px;
+}
+h3{
+  color: lightblue;
+  font-family:"Courier New", Courier, monospace;
+}
+h4{
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+h5{
+  font-size: 20px;
+  color: lightblue;
+  font-family:"Courier New", Courier, monospace;
+}
+h6{
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+uL{
+  font-size: 20px;
+  color: lightblue;
+  font-family:"Courier New", Courier, monospace;
+}
+th{
+  font-size: 25px;
+}
+#eren{
+  border-radius: 25px;
+}
+#mikasa{
+  border-radius: 25px;
+}
+#armin{
+  border-radius: 25px;
+}
+#levi{
+  border-radius: 25px;
+}
+#sasha{
+  border-radius: 25px;
+}
+#connie{
+  border-radius: 25px;
+}
+#jean{
+  border-radius: 25px;
+}
+#historia{
+  border-radius: 25px;
+}
+#erwin{
+  border-radius: 25px;
+}
+#berth{
+  border-radius: 25px;
+}
+#hange{
+  border-radius: 25px;
+}
+#reiner{
+  border-radius: 25px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.overlay{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  border-radius: 25px;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
